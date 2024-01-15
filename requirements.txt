@@ -1,0 +1,16 @@
+numpy~=1.26.0
+matplotlib~=3.8.0
+sympy~=1.11.1
+nimfa~=1.4.0
+torch~=2.0.1+cu117
+requests~=2.31.0
+bs4~=0.0.1
+beautifulsoup4~=4.12.2
+pandas~=2.1.0
+streamlit~=1.29.0
+Pillow~=10.0.0
+opencv-python~=4.9.0.80
+ultralytics~=8.1.1
+torchvision~=0.15.2+cu117
+scikit-learn~=1.4.0rc1
+xgboost~=2.0.3
