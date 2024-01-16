@@ -1,5 +1,4 @@
 from pathlib import Path
-from PIL import Image
 import streamlit as st
 
 import config
@@ -59,9 +58,5 @@ source_selectbox = st.sidebar.selectbox(
 source_img = None
 if source_selectbox == config.SOURCES_LIST[0]: # Image
     infer_uploaded_image(confidence, model)
-elif source_selectbox == config.SOURCES_LIST[1]: # Video
-    infer_uploaded_video(confidence, model)
-elif source_selectbox == config.SOURCES_LIST[2]: # Webcam
-    infer_uploaded_webcam(confidence, model)
 else:
     st.error("Currently only 'Image' and 'Video' source are implemented")
