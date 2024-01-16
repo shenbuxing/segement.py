@@ -5,7 +5,6 @@ nimfa~=1.4.0
 pandas~=2.1.0
 streamlit~=1.29.0
 Pillow~=10.0.0
-opencv-python~=4.9.0.80
 ultralytics~=8.1.1
 scikit-learn~=1.4.0rc1
 xgboost~=2.0.3
