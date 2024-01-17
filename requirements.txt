@@ -1,7 +1,3 @@
-numpy~=1.26.0
-matplotlib~=3.8.0
 sympy~=1.11.1
-nimfa~=1.4.0
-pandas~=2.1.0
 streamlit~=1.29.0
 ultralytics~=8.1.1
